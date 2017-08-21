@@ -1,2 +1,7 @@
-# Analisis_De_Algoritmos
-Analisis De Algoritmos
+# Analisis de Algoritmos
+
+### Instituto Politécnico Nacional
+
+### Escuela Superior de Cómputo
+
+- **Profesor:** Benjamín Luna Benoso
