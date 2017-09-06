@@ -1,4 +1,18 @@
-#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+INSTITUTO POLITÉCNICO NACIONAL
+ESCUELA SUPERIOR DE CÓMPUTO
+Análisis de Algoritmos
+GRUPO: 3CV1
+
+ALUMNOS:
+    Reyes Fragoso Roberto
+    Torreblanca Faces Jesús Alexis
+
+PROFESOR: Luna Benoso Benjamín
+
+FECHA: 5/Septiembre/2017
+"""
 
 #Variable global que nos sirve para almacenar los Fibonacci ya calculados
 aux = [0]*100
@@ -34,6 +48,6 @@ def main():
         a = fibonacci(i)
         b = fibonacci(i+1)
         print("Entra: %d para %d y %d" % (euclides(a,b),a,b))
-        
+
 if __name__ == '__main__':
     main()

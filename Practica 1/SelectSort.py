@@ -1,3 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+INSTITUTO POLITÉCNICO NACIONAL
+ESCUELA SUPERIOR DE CÓMPUTO
+Análisis de Algoritmos
+GRUPO: 3CV1
+
+ALUMNOS:
+    Reyes Fragoso Roberto
+    Torreblanca Faces Jesús Alexis
+
+PROFESOR: Luna Benoso Benjamín
+
+FECHA: 5/Septiembre/2017
+"""
+
 def selectSort(array):
     """Algoritmo de ordenamiento Selection Sort."""
     min_index = 0

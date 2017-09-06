@@ -1,5 +1,18 @@
-#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+INSTITUTO POLITÉCNICO NACIONAL
+ESCUELA SUPERIOR DE CÓMPUTO
+Análisis de Algoritmos
+GRUPO: 3CV1
 
+ALUMNOS:
+    Reyes Fragoso Roberto
+    Torreblanca Faces Jesús Alexis
+
+PROFESOR: Luna Benoso Benjamín
+
+FECHA: 5/Septiembre/2017
+"""
 import random
 
 def suma(a,b):
