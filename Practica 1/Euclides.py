@@ -20,14 +20,12 @@ aux[1] = 1
 
 def euclides(m,n):
     """Funcion que recibe dos numeros enteros positivos m y n y retorna su MCD (Maximo Comun Multiplo)"""
-    cont = 0
     r = 0
     while n != 0:
         r = m%n
         m = n
         n = r
-        cont +=1
-    return cont#, m
+    return m
 
 def fibonacci(n):
     """Funcion que genera la secuencia de Fibonacci para un numero n."""
@@ -47,7 +45,7 @@ def main():
     for i in range(1,80):
         a = fibonacci(i)
         b = fibonacci(i+1)
-        print("Entra: %d para %d y %d" % (euclides(a,b),a,b))
+        print("Para %d y %d el MCD es: %d" % (a,b,euclides(a,b)))
 
 if __name__ == '__main__':
     main()

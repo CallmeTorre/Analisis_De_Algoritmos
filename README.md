@@ -14,3 +14,6 @@
 
 #### Práctica 3
 - *Divide y Vencerás: Algoritmo MergeSort.*
+
+#### Práctica 4
+- *Divide y Vencerás: QuickSort.*
