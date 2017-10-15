@@ -17,3 +17,6 @@
 
 #### Práctica 4
 - *Divide y Vencerás: QuickSort.*
+
+#### Práctica 5
+- *Algoritmo de Strassen.*
