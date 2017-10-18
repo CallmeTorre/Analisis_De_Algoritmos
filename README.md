@@ -20,3 +20,6 @@
 
 #### Práctica 5
 - *Algoritmo de Strassen.*
+
+#### Práctica 6
+- *Problema del máximo subarreglo.*
