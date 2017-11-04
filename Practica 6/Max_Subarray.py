@@ -1,4 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+INSTITUTO POLITÉCNICO NACIONAL
+ESCUELA SUPERIOR DE CÓMPUTO
+Análisis de Algoritmos
+GRUPO: 3CV1
+
+ALUMNOS:
+    Reyes Fragoso Roberto
+    Torreblanca Faces Jesús Alexis
+
+PROFESOR: Luna Benoso Benjamín
+
+FECHA: 22/Octubre/2017
+"""
 def msc(array,bajo,medio,alto):
+    """Funcion que obtiene la mayor suma tomando como pivote el centro del arreglo."""
     suma_izq = 0
     max_izq = 0
     suma = 0
@@ -18,6 +34,7 @@ def msc(array,bajo,medio,alto):
     return suma_der+suma_izq
 
 def ms(array,bajo,alto):
+    """Funcion que devuelve la mayor suma que hay en un arreglo."""
     if(bajo == alto):
         return array[bajo]
     else:

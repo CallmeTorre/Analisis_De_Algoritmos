@@ -23,3 +23,6 @@
 
 #### Práctica 6
 - *Problema del máximo subarreglo.*
+
+#### Práctica 7
+- *Multiplicación de una secuencia de matrices.*
