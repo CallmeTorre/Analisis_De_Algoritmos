@@ -26,3 +26,6 @@
 
 #### Práctica 7
 - *Multiplicación de una secuencia de matrices.*
+
+#### Práctica 8
+- *Subsecuencia común más larga.*
