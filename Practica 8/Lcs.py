@@ -25,7 +25,6 @@ def lcs(X , Y):
     """Funcion que obtiene la subsecuencia común mas larga de dos cadenas."""
     m = len(X)
     n = len(Y)
-    porcentaje = 0
 
     #Obtenemos que archivo es el mas grande y ese lo hacemos nuestro 100%
     mayor = max(m , n)
@@ -43,12 +42,13 @@ def lcs(X , Y):
                 L[i][j] = max(L[i-1][j] , L[i][j-1])
 
     #L[m][n] contiene el largo de la LCS de X[0...n-1] & Y[0...m-1]
-    porcentaje = (L[m][n]*100)/mayor
-    return porcentaje
+    return (L[m][n]*100)/mayor
 
 def main():
     doc1 = readFile(sys.argv[1])
     doc2 = readFile(sys.argv[2])
+    print("Archivo 1: " + doc1)
+    print("Archivo 2: " + doc2)
     print("Son iguales en un %d porciento." %(lcs(doc1 , doc2)))
 
 if __name__ == '__main__':
