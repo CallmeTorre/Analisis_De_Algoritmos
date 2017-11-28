@@ -1,0 +1,4 @@
+Simbolo | Frecuencia
+a | 19
+b | 12
+c | 9

@@ -29,3 +29,6 @@
 
 #### Práctica 8
 - *Subsecuencia común más larga.*
+
+#### Práctica 9
+- *Estrategia Greedy: Codigos de Huffman.*

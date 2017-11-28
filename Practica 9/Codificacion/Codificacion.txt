@@ -1,0 +1,4 @@
+Simbolo | Codigo
+a | 0
+b | 11
+c | 10
