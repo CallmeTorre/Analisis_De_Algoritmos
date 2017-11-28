@@ -50,14 +50,7 @@ def encodeFile(array,string):
     doc = open("Codificacion/Archivo_codificado.txt","w")
     doc.write(string)
     doc.close()
-
-#def decodeFile(array):
-#    encodedString = readFile("Codificacion/Archivo_codificado.txt")
-#    for elem in array:
-#        encodedString = encodedString.replace(str(elem[1]),elem[0])
-#    doc = open("Decodificacion/Archivo_decodificado.txt","w")
-#    doc.write(encodedString)
-#    doc.close()
+    return string
 
 def huffman(dict_freq):
     """Funcion que genera los codigos de Huffman usando un heap."""
@@ -79,8 +72,13 @@ def main():
     huff = huffman(dict_freq)
     writeFrequencies(huff,dict_freq)
     writeCodification(huff)
-    encodeFile(huff,txt)
-    decodeFile(huff)
+    encoded = encodeFile(huff,txt)
+    print("Cadena original: %s" %txt)
+    print("Cadena codificada: %s" %encoded)
+    print("Simbolo | Frecuencia | Codigo")
+    for elem in huff:
+        print("%s | %s | %s" %(elem[0], dict_freq[elem[0]], elem[1]))
+    print("Cadena decodificada: %s" %txt)
 
 if __name__ == '__main__':
     main()
