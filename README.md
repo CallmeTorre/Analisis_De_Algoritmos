@@ -32,3 +32,6 @@
 
 #### Práctica 9
 - *Estrategia Greedy: Codigos de Huffman.*
+
+#### Práctica 10
+- *Verificación en tiempo polinomial: Ciclo Hamiltoniano*
