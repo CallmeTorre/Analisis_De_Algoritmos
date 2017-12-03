@@ -36,7 +36,7 @@ class Graph():
                 return False
 
         return True
-    
+
     # Funcion revursiva de utilidad que nos ayuda a resolver el problema.
     def hamCycleUtil(self, path, pos):
 
@@ -94,6 +94,12 @@ def main():
                 [0, 1, 0, 0, 1],
                 [1, 1, 0, 0, 1],
                 [0, 1, 1, 1, 0], ]
+    print("Grafo:")
+    print("(0)---(1)---(2)")
+    print(" |    / \    |")
+    print(" |   /   \   |")
+    print(" |  /     \  |")
+    print("(3)---------(4)")
     g1.hamCycle()
     g2 = Graph(5)
     g2.graph = [[0, 1, 0, 1, 0],
@@ -101,6 +107,24 @@ def main():
                 [0, 1, 0, 0, 1],
                 [1, 1, 0, 0, 0],
                 [0, 1, 1, 0, 0], ]
+    print("Grafo:")
+    print("(0)---(1)---(2)")
+    print(" |    / \    |")
+    print(" |   /   \   |")
+    print(" |  /     \  |")
+    print("(3)         (4)")
+    g2.hamCycle()
+    g2.graph = [[0, 1, 0, 1, 0],
+                [1, 0, 1, 1, 1],
+                [0, 1, 0, 0, 1],
+                [1, 0, 0, 0, 1],
+                [0, 1, 0, 1, 0], ]
+    print("Grafo:")
+    print("(0)---(1)---(2)")
+    print(" |           |")
+    print(" |           |")
+    print(" |           |")
+    print("(3)---------(4)")
     g2.hamCycle()
 
 if __name__ == '__main__':
