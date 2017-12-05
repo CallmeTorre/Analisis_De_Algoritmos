@@ -7,12 +7,11 @@ def vertexCover(graph):
         if(visited[i] == None):
             lista = graph[i]
             for elem in lista:
-                print("iteracion %d elem %d" %(i,elem))
                 visited[i] = True
                 visited[elem] = True
                 if(i not in solution):
                     solution.append(i)
-    print(solution)
+    return solution
 
 a = {0:[1,2],
  1:[0],
@@ -38,7 +37,9 @@ print(" |           |")
 print(" |           |")
 print(" |           |")
 print("(2)---------(3)")
-vertexCover(a)
+print("Solucion: ")
+print(vertexCover(a))
+print("\n")
 print("Grafo:")
 print("(0)---------(2)")
 print(" | ")
@@ -50,10 +51,13 @@ print("(5)---------(4)")
 print(" | ")
 print(" | ")
 print("(6)")
-vertexCover(b)
+print("Solucion: ")
+print(vertexCover(b))
+print("\n")
 print("(1)---------(2)---------(4)---------(6)")
 print(" |           |           |")
 print(" |           |           |")
 print(" |           |           |")
 print("(0)         (3)---------(5)")
-vertexCover(c)
+print("Solucion: ")
+print(vertexCover(c))
